@@ -15,7 +15,7 @@ We began by examining the provided datasets to understand their structure and co
 
 +Objective:
 
-The classification task aimed to categorize entities (e.g., brands, companies) into predefined categories such as Fashion, Tech, Health and Lifestyle, etc.
+The classification task aimed to categorize entities into predefined categories such as Fashion, Tech, Health and Lifestyle, etc.
 
 
 Process:
