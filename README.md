@@ -46,7 +46,9 @@ Throughout the project, we adopted an iterative approach:
 +Each round of classification or regression involved learning from errors and improving model performance.
 +Insights from one phase informed the next, leading to better results over time.
 
+
 ** Challenges and Resolutions
+
 +Data Imbalance: Some categories were underrepresented. We addressed this through oversampling and adjusting class weights in models.
 +Overfitting: To ensure generalization, we used techniques like cross-validation and regularization.
 +Complexity in Relationships: Nonlinear relationships were handled using advanced algorithms like ensemble methods.
@@ -58,12 +60,18 @@ In the first round, the main task was to classify Instagram accounts into one of
 Process:
 
 +Data Analysis:
+
 We examined the data to understand the distribution of categories. The dataset showed that some categories were larger than others, creating an imbalance.
-Model Development:
++Model Development:
+
 We used a basic machine learning classification algorithm to assign each account to a category based on its features. These features included metadata such as account descriptions and recent posts.
+
 +Evaluation:
+
 After training the model, we tested its performance using accuracy as the main metric. We also identified categories that were more difficult to predict, such as those with fewer examples.
+
 +Outcome:
+
 The model performed reasonably well, especially in popular categories like Fashion and Health and Lifestyle. However, less common categories like Art and Mom and Children had lower accuracy. This showed us the need for better balancing or feature selection in future rounds.
 
 #ROUND 1 Regression
