@@ -2,14 +2,14 @@
 Project Overview
 
 In this project, we focused on understanding, classifying, and predicting various entities based on their characteristics. The work involved multiple steps, including data exploration, classification, and regression modeling, to draw insights and make accurate predictions. Below is a breakdown of the process.
-1. Data Collection and Exploration
+** Data Collection and Exploration
 We began by examining the provided datasets to understand their structure and content. The datasets included labels for different entities (e.g., fashion, health, travel) and numerical values for prediction purposes. The exploration phase allowed us to:
 
 +Identify key categories within the data.
 +Analyze trends and relationships between variables.
 +Recognize patterns that informed the classification and regression models.
 
-2. Classification Tasks
+**Classification Tasks
 Objective:
 The classification task aimed to categorize entities (e.g., brands, companies) into predefined categories such as Fashion, Tech, Health and Lifestyle, etc.
 
