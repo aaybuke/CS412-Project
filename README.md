@@ -12,14 +12,18 @@ We began by examining the provided datasets to understand their structure and co
 **Classification Tasks
 
 +Objective:
+
 The classification task aimed to categorize entities (e.g., brands, companies) into predefined categories such as Fashion, Tech, Health and Lifestyle, etc.
 
 
 Process:
 
 +Data Preprocessing: Cleaned and prepared the data for modeling. This included handling missing values and standardizing features.
+
 +Model Training: Developed and trained classification models using algorithms like logistic regression or decision trees to assign labels to entities.
+
 +Evaluation: Assessed model accuracy using metrics such as precision, recall, and F1 score. Adjustments were made to improve performance in subsequent rounds.
+
 Outcomes:
 Entities were successfully categorized into relevant classes, improving our understanding of their industry or sector association.
 
@@ -83,6 +87,7 @@ Some categories had much less data than others, making it harder for the model t
 Skewed Data:
 Like counts were highly skewed, which affected regression performance, especially for extreme values.
 
+**********************                    **********************                      **********************                   **********************             **********************
 #ROUND 2 Classification
 
 In Round 2, our primary focus for classification was to assign entities (e.g., accounts, profiles) to one of the predefined categories such as Tech, Fashion, Food, and others.
@@ -113,6 +118,8 @@ The predictions were more reliable than in the first round, particularly for acc
 Enhanced data balancing for better classification performance.
 Addressed outliers and variability in regression tasks using more advanced preprocessing techniques.
 Improved overall accuracy and consistency of models compared to Round 1.
+
+**********************                    **********************                      **********************                   **********************             **********************
 
 #ROUND3 Classification
 
