@@ -10,36 +10,41 @@ We began by examining the provided datasets to understand their structure and co
 +Recognize patterns that informed the classification and regression models.
 
 **Classification Tasks
-Objective:
+
++Objective:
 The classification task aimed to categorize entities (e.g., brands, companies) into predefined categories such as Fashion, Tech, Health and Lifestyle, etc.
 
-Steps Taken:
+Process:
 +Data Preprocessing: Cleaned and prepared the data for modeling. This included handling missing values and standardizing features.
 +Model Training: Developed and trained classification models using algorithms like logistic regression or decision trees to assign labels to entities.
 +Evaluation: Assessed model accuracy using metrics such as precision, recall, and F1 score. Adjustments were made to improve performance in subsequent rounds.
 Outcomes:
 Entities were successfully categorized into relevant classes, improving our understanding of their industry or sector association.
 
-3. Regression Tasks
-Objective:
+** Regression Tasks
+
++Objective:
 The regression task focused on predicting numerical outcomes based on available features.
 
-Steps Taken:
+Process:
+
 +Feature Engineering: Selected relevant features that could influence predictions. This step involved removing irrelevant or noisy data.
 +Model Training: Built regression models (e.g., linear regression, random forest) to predict numerical outcomes, such as engagement metrics.
 +Optimization: Refined the models by tuning hyperparameters and validating with test data to enhance accuracy.
 Outcomes:
 The regression models effectively predicted values like engagement rates, enabling more precise forecasting and planning.
 
-4. Iterative Refinement
+** Iterative Refinement
 Throughout the project, we adopted an iterative approach:
 
 +Each round of classification or regression involved learning from errors and improving model performance.
 +Insights from one phase informed the next, leading to better results over time.
-5. Challenges and Resolutions
+
+** Challenges and Resolutions
 +Data Imbalance: Some categories were underrepresented. We addressed this through oversampling and adjusting class weights in models.
 +Overfitting: To ensure generalization, we used techniques like cross-validation and regularization.
 +Complexity in Relationships: Nonlinear relationships were handled using advanced algorithms like ensemble methods.
+**********************                    **********************                      **********************                   **********************             **********************
 
 #ROUND 1 Classification
 In the first round, the main task was to classify Instagram accounts into one of the predefined categories, such as Fashion, Travel, Tech, Health and Lifestyle, and others.
