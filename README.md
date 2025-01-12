@@ -14,6 +14,7 @@ We began by examining the provided datasets to understand their structure and co
 +Objective:
 The classification task aimed to categorize entities (e.g., brands, companies) into predefined categories such as Fashion, Tech, Health and Lifestyle, etc.
 
+
 Process:
 +Data Preprocessing: Cleaned and prepared the data for modeling. This included handling missing values and standardizing features.
 +Model Training: Developed and trained classification models using algorithms like logistic regression or decision trees to assign labels to entities.
