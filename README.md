@@ -16,6 +16,7 @@ The classification task aimed to categorize entities (e.g., brands, companies) i
 
 
 Process:
+
 +Data Preprocessing: Cleaned and prepared the data for modeling. This included handling missing values and standardizing features.
 +Model Training: Developed and trained classification models using algorithms like logistic regression or decision trees to assign labels to entities.
 +Evaluation: Assessed model accuracy using metrics such as precision, recall, and F1 score. Adjustments were made to improve performance in subsequent rounds.
